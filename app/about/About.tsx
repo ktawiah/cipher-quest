@@ -41,10 +41,12 @@ const About = () => {
                   <p>Reach us via e-mail.</p>
                 </div>
               </Link>
-              <div className="flex flex-col items-center gap-2">
-                <FaGithub />
-                <p>View the source code on Github.</p>
-              </div>
+              <Link href={"https://github.com/ktawiah/Cipher-Quest"}>
+                <div className="flex flex-col items-center gap-2">
+                  <FaGithub />
+                  <p>View the source code on Github.</p>
+                </div>
+              </Link>
               <Link
                 href={
                   "https://twitter.com/KelvinTawiah928?t=IeiTJiY0X363Xjk8LRHR2A&s=08"
