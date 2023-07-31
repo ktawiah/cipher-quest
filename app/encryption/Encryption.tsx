@@ -114,13 +114,6 @@ const Encryption = () => {
   return (
     <>
       <Navbar />
-      {showError && (
-        <ErrorModal
-          buttonInfo="OK"
-          description="Please ensure that the message input is not empty and the total number of shifts is greater than 1."
-          onClose={onClose}
-        />
-      )}
       <main className="text-white h-[90vh] flex flex-col justify-evenly items-center md:flex-row ">
         <EncryptionFormInput
           handleSubmit={handleSubmit}
@@ -143,6 +136,13 @@ const Encryption = () => {
           />
         </div>
       </main>
+      {showError && (
+        <ErrorModal
+          buttonInfo="OK"
+          description="Please ensure that the message input is not empty and the total number of shifts is greater than 1."
+          onClose={onClose}
+        />
+      )}
     </>
   );
 };

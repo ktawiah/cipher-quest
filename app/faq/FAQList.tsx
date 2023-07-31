@@ -5,14 +5,9 @@ interface MenuPropsShape {
   onToggle: () => void;
 }
 
-const MenuSection = ({
-  answer,
-  question,
-  expanded,
-  onToggle,
-}: MenuPropsShape) => {
+const FAQCard = ({ answer, question, expanded, onToggle }: MenuPropsShape) => {
   return (
-    <div className="flex flex-col px-3 gap-1 py-3 rounded-tl-3xl rounded-br-3xl border border-white w-[60%] text-white ">
+    <div className="flex flex-col px-3 gap-1 py-3 rounded-tl-3xl rounded-br-3xl border border-white w-[90%] md:w-[80%] lg:w-[60%] text-white ">
       <div className="flex justify-between w-full">
         <p className={`${expanded ? "text-base" : "text-sm "}`}>{question}</p>
         <button
@@ -29,4 +24,4 @@ const MenuSection = ({
   );
 };
 
-export default MenuSection;
+export default FAQCard;

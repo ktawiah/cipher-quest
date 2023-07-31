@@ -21,7 +21,7 @@ const ErrorModal = (props: ErrorModalProps) => {
           <p className="text-sm">{props.description}</p>
           <button
             onClick={props.onClose}
-            className="self-end px-4 py-1 text-sm font-semibold text-white bg-blue-700 rounded-full hover:scale-x-105"
+            className="self-end px-4 py-1 text-sm font-semibold text-white bg-blue-700 rounded-full cursor-pointer hover:scale-x-105"
           >
             {props.buttonInfo}
           </button>

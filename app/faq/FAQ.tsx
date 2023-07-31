@@ -2,7 +2,7 @@
 import { useState } from "react";
 import FAQNavbar from "../components/FAQNavbar";
 import QAs from "./Q&As";
-import MenuSection from "./MenuSection";
+import FAQCard from "./FAQList";
 
 const Faq = () => {
   const [expandedIndex, setExpandedIndex] = useState(-1);
@@ -14,7 +14,7 @@ const Faq = () => {
   const list = QAs.map(({ key, question, answer }, index) => {
     const expanded = index === expandedIndex;
     return (
-      <MenuSection
+      <FAQCard
         key={key}
         answer={answer}
         question={question}
