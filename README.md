@@ -1,7 +1,7 @@
-# Welcome to my Cipher Quest Project.🙃
+![localhost_3000_ (1)](https://github.com/ktawiah/Cipher-Quest/assets/127238828/f81449e6-80bc-47d1-8598-9ae77951e8ab)# Welcome to my Cipher Quest Project.🙃
 This web app implements the caesars cipher algorithm, allowing you to encrypt and decrypt messages using a specified key shifts.
 
-![Home page](https://github.com/ktawiah/Cipher-Quest/blob/main/public/localhost_3000_%20(1).png)
+<img src="https://github.com/ktawiah/Cipher-Quest/blob/main/public/localhost_3000_%20(1).png" alt="Cipher Quest Screenshot"/>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
