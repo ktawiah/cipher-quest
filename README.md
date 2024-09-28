@@ -1,5 +1,7 @@
 # Welcome to my Cipher Quest Project.🙃
-This web app implements the caesars cipher algorithm, allowing you to encrypt and decrypt messages using a specified key shifts.
+This web application implements the Caesar Cipher algorithm, enabling users to both encrypt and decrypt messages with customizable key shifts. You can explore the project by clicking <a href="https://cipher-quest.vercel.app">here</a>.
+
+The primary goal of this project was to deepen my understanding of React's core functionality by building a practical tool.
 
 <img src="https://github.com/ktawiah/Cipher-Quest/blob/main/public/localhost_3000_%20(1).png" alt="Cipher Quest Screenshot"/>
 
