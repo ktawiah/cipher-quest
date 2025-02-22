@@ -3,7 +3,7 @@ This web application implements the Caesar Cipher algorithm, enabling users to b
 
 The primary goal of this project was to deepen my understanding of React's core functionality by building a practical tool.
 
-<img src="https://github.com/ktawiah/Cipher-Quest/blob/main/public/localhost_3000_%20(1).png" alt="Cipher Quest Screenshot"/>
+<!-- <img src="https://github.com/ktawiah/Cipher-Quest/blob/main/public/localhost_3000_%20(1).png" alt="Cipher Quest Screenshot"/> -->
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
